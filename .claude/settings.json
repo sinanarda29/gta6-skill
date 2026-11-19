@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 tests/pruefen.py)",
+      "Bash(python3 tests/test_media.py)",
+      "Bash(python3 tests/test_media.py *)",
+      "Bash(python3 -I tests/pruefen.py)",
+      "Bash(python3 -I tests/test_media.py)",
+      "Bash(python3 -I tests/test_media.py *)"
+    ]
+  }
+}
